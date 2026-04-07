@@ -1,5 +1,5 @@
 # Base image from internal Harbor (mirrors docker.io/library/node)
-FROM harbor.haivivi.cn/library/node:20-alpine
+FROM harbor-sh.haivivi.cn/library/node:20-alpine
 
 WORKDIR /app
 

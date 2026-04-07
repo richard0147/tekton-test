@@ -1,5 +1,5 @@
 # Base image from internal Harbor (mirrors docker.io/library/python)
-FROM harbor.haivivi.cn/library/python:3.12-slim
+FROM harbor-sh.haivivi.cn/library/python:3.12-slim
 
 WORKDIR /app
 
