@@ -22,4 +22,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
         print(f"listening on :{PORT}")
+        print(f"argocd test")
         httpd.serve_forever()
